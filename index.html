@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+   <!-- CSS stylesheet links -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" >
+   <!-- Font awesome CSS stylesheet link for social icons -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/Styles.css">
+ </head>
+ <body>
+   <div class="container">
+     <!-- Page Header Section -->
+     <div class="row">
+       <div class="header">
+         <div class="col-md-3">
+           <div class="logo">KC</div>
+         </div>
+         <div class="col-md-9">
+           <h1 class="name">Kishore Chandrasekharan</h1>
+           <h3 class="title">Front-End Ninja</h3>
+           <div class="social-links">
+             <a href="https://www.linkedin.com/in/kishorechandrasekharan"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+             <a href="https://github.com/kishore28m"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- Skyline Image section -->
+     <div class="row">
+       <div class="col-md-12">
+         <div class="image-section">
+           <img src="images/nyc.jpg" alt="New York" class="img-responsive"/>
+         </div>
+       </div>
+       <!-- Fetaured Work Text section -->
+       <div class="col-md-12">
+         <div class="featured-text text-muted">
+           <p>Featured Work</p>
+           <p class="information">Click on the images for a brief description</p>
+         </div>
+       </div>
+     <!-- Projects Section -->
+       <div class="col-md-4">
+         <figure>
+           <img src="images/nyc.jpg" alt="first Project" class="img-responsive" data-toggle="modal" data-target="#project1">
+           <figcaption>My First Project</figcaption>
+         </figure>
+       </div>
+       <div class="col-md-4">
+         <figure>
+           <img src="images/nyc.jpg" alt="first App" class="img-responsive" data-toggle="modal" data-target="#project2">
+           <figcaption>My First App</figcaption>
+         </figure>
+       </div>
+       <div class="col-md-4">
+         <figure>
+           <img src="images/nyc.jpg" alt="Future Project" class="img-responsive" data-toggle="modal" data-target="#project3">
+           <figcaption>My New Project</figcaption>
+         </figure>
+       </div>
+     </div>
+</div>
+
+
+<!-- Modal1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">My Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/nyc.jpg" alt="NYC Skyline">
+                    This was my first project in the Front-end Nanodegree program. Bootstrap was utilized for the layout and this pop up feature uses Modals. This excercise was exicting to code and test. Will be updating this site with more information as I continue my journey with FEND nanodegree program ☺.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal1 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">My Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/nyc.jpg" alt="NYC Skyline">
+                    Will be updating this piece in future whenever I finish my first app ☺.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Future Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/nyc.jpg" alt="NYC Skyline">
+                     Reserved for future Projects ☺.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- .js links -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
